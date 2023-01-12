@@ -9,6 +9,7 @@ pipeline{
 	stages{
 		stage('stage-1'){
 			sh "mkdir git1"
+			echo "hello all"
 		}
 	}
 }
